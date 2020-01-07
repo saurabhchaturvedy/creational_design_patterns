@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c45b3b5b-6fad-4fa3-8f2e-869dc862e177" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/factory_method_problem/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory_method_problem/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory_method_problem/Transport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory_method_solution/Bike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory_method_solution/BikeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory_method_solution/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory_method_solution/CarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory_method_solution/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory_method_solution/Transport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory_method_solution/TransportFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstract_factory_problem/Scrollbar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstract_factory_problem/Window.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +21,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src" />
   </component>
   <component name="ProjectId" id="1W1nZB4ZqkRawPFBgdEIg3TAkVU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -42,26 +35,13 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Client (5)">
+  <component name="RunManager" selected="Application.Client (1)">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="singleton_solution.Client" />
+      <option name="MAIN_CLASS_NAME" value="abstract_factory_solution.Client" />
       <module name="creational-java-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="singleton_solution.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="builder_problem.Client" />
-      <module name="creational-java-pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="builder_problem.*" />
+          <option name="PATTERN" value="abstract_factory_solution.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,20 +88,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="abstract_factory_problem.Client" />
+      <module name="creational-java-pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="abstract_factory_problem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Client (1)" />
-      <item itemvalue="Application.Client (2)" />
       <item itemvalue="Application.Client (3)" />
       <item itemvalue="Application.Client (4)" />
       <item itemvalue="Application.Client (5)" />
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Client (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (1)" />
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.Client (5)" />
         <item itemvalue="Application.Client (4)" />
         <item itemvalue="Application.Client (3)" />
-        <item itemvalue="Application.Client (2)" />
-        <item itemvalue="Application.Client (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -151,26 +144,26 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="446" y="58" key="#com.intellij.ide.util.MemberChooser" timestamp="1578340238037">
+    <state x="446" y="58" key="#com.intellij.ide.util.MemberChooser" timestamp="1578420414403">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="446" y="58" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1578340238037" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1578340352138">
+    <state x="446" y="58" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1578420414403" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1578420833142">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1578340352138" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1578340352137">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1578420833142" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1578420833141">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1578340352137" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1578340352137">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1578420833141" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1578420833141">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1578340352137" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1578340352137">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1578420833141" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1578420833142">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1578340352137" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1578420833142" />
     <state x="334" y="72" width="612" height="536" key="find.popup" timestamp="1578330392747">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
